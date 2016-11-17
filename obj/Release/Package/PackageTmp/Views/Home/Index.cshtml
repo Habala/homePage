@@ -1,0 +1,161 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<header class="nav-header">
+    <div id="headerText">
+        <h1>Aspiring junior developer looking for new challenges</h1>
+    </div>
+</header>
+<h1 class="text-left" id="skillsSection">Skills</h1>
+<div class="row">
+    <div class="col-xs-6; col-md-3">
+        <div class="inner-content text-center">
+            <div class="c100 p75 small center">
+                <span>75%</span>
+                <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                </div>
+            </div>
+            <h3>C#</h3>
+        </div>
+    </div>
+    <div class="col-xs-6; col-md-3">
+        <div class="inner-content text-center">
+            <div class="c100 p80 small center">
+                <span>80%</span>
+                <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                </div>
+            </div>
+            <h3>SQL</h3>
+        </div>
+    </div>
+    <div class="col-xs-6; col-md-3">
+        <div class="inner-content text-center">
+            <div class="c100 p65 small center">
+                <span>65%</span>
+                <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                </div>
+            </div>
+            <h3>Javascript</h3>
+        </div>
+    </div>
+    <div class="col-xs-6; col-md-3">
+        <div class="inner-content text-center">
+            <div class="c100 p80 small center">
+                <span>80%</span>
+                <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                </div>
+            </div>
+            <h3>Umbraco</h3>
+        </div>
+    </div>
+</div>
+
+<h1 class="text-left" id="projectSection">Projects</h1>
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="~/Content/Images/StartPP.png" />
+        </div>
+        <div class="item">
+            <img src="~/Content/Images/AWp1.png" />
+        </div>
+        <div class="item">
+            <img src="~/Content/Images/TMBp1.png" />
+        </div>
+        <div class="item">
+            <img src="~/Content/Images/TMBp2.png" />
+        </div>
+        <div class="item">
+            <img src="~/Content/Images/TMPp3.png" />
+        </div>
+        <div class="item">
+            <img src="~/Content/Images/TMBp4.png" />
+        </div>
+        <div class="item">
+            <img src="~/Content/Images/BHp1.png" />
+        </div>
+        <div class="item">
+            <img src="~/Content/Images/BHp2.png" />
+        </div>
+        <div class="item">
+            <img src="~/Content/Images/BHp3.png" />
+        </div>
+        <div class="item">
+            <img src="~/Content/Images/BHp4.png" />
+        </div>
+        <div class="item">
+            <img src="~/Content/Images/BHp5.png" />
+        </div>
+        <div class="item">
+            <img src="~/Content/Images/eCPp1.png" />
+        </div>
+        <div class="item">
+            <img src="~/Content/Images/Kattisp1.png" />
+        </div>
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+
+    </a>
+</div>
+
+<h1 id="aboutMeSection">About me</h1>
+<div class="row">
+    <div class="col-md-4">
+        <img src="~/Content/Images/Dino Petrovic.png" />
+    </div>
+    <div class="col-md-8">
+        Dino är en motiverad person som jobbar strukturerat och planerar flera steg framåt vilket lämpar sig väl i en utvecklingsmiljö.
+        Med en bakgrund inom ekonomi och en passion för datahantering och analys är han väl lämpad för flera olika utvecklingsroller.
+        <p>
+            <br />
+            - Patrik Jönsson <br />
+            Head teacher Academy
+        </p>
+    </div>
+</div>
+
+<h1 id="contactSection">Contact</h1>
+<div class="row">
+    <div class="col-md-4">
+        <p>Email: Dino_Petrovic_91@hotmail.com</p>
+    </div>
+    <div class="col-md-4">
+        <a href="https://se.linkedin.com/in/dino-petrović-36410742">
+            <img src="~/Content/Images/linkedInBetter.png" style="width:150px;" />
+        </a>
+    </div>
+    <div class="col-md-4">
+        <a href="https://github.com/Habala">
+            <img src="~/Content/Images/GitHub-Logo.png" style="width:150px;" />
+        </a>
+    </div>
+</div>
+<link href="~/Content/circle.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<script src="~/Scripts/bootstrap.js"></script>
+<script type="text/javascript" src="~/Scripts/carousel-swipe.js"</script>
+<script type="text/javascript">$(".carousel").carousel();</script>
